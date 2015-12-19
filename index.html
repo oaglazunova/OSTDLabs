@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSTD Labs: Test Task</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-home" viewBox="50 50 400 400">
+      <path d="M257.122,165.188L414.22,301.287v143.779H300.098v-82.955h-85.953v82.955H100.023V302.369L257.122,165.188z M257.086,128.15l174.271,153.27L462,250.776L257.158,66.934L50,252.118l30.571,30.716L257.086,128.15z"></path>
+    </symbol>
+    <symbol id="icon-hide" viewBox="0 -2 24 24">
+      <path d="M22.245,4.015c0.313,0.313,0.313,0.826,0,1.139l-6.276,6.27c-0.313,0.312-0.313,0.826,0,1.14l6.273,6.272  c0.313,0.313,0.313,0.826,0,1.14l-2.285,2.277c-0.314,0.312-0.828,0.312-1.142,0l-6.271-6.271c-0.313-0.313-0.828-0.313-1.141,0  l-6.276,6.267c-0.313,0.313-0.828,0.313-1.141,0l-2.282-2.28c-0.313-0.313-0.313-0.826,0-1.14l6.278-6.269  c0.313-0.312,0.313-0.826,0-1.14L1.709,5.147c-0.314-0.313-0.314-0.827,0-1.14l2.284-2.278C4.308,1.417,4.821,1.417,5.135,1.73  L11.405,8c0.314,0.314,0.828,0.314,1.141,0.001l6.276-6.267c0.312-0.312,0.826-0.312,1.141,0L22.245,4.015z"> </path>
+    </symbol>
+  </svg>
+
+
+  <header class="header">
+    <div class="container">
+      <img src="img/logo.jpg" alt="logo" class="header__logo">
+      <a id="toggler" class="menu-toggler" href="#"><span></span></a>
+      <nav id="menu" class="main-nav">
+        <ul>
+          <li>
+            <a class="main-nav__btn" href="#"><span>Menu 1</span></a>
+          </li>
+          <li>
+            <a class="main-nav__btn" href="#"><span>Menu 2</span></a>
+          </li>
+          <li>
+            <a class="main-nav__btn" href="#"><span>Menu 3</span></a>
+          </li>
+          <li>
+            <a class="main-nav__btn" href="#"><span>Menu 4</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <main class="main">
+    <div class="container">
+
+      <img src="img/banner.jpg" alt="banner" class="banner">
+
+      <div class="projects">
+        <ul id="projects" class="projects__list">
+
+          <li class="projects__item  js-project" data-project="">
+            <h2 class="projects__name  js-name"></h2>
+            <div class="projects__info">
+              <p class="projects__description  js-descr"></p>
+              <img src="#" alt="project logo" class="projects__logo  js-logo">
+              <div class="projects__btns">
+                <a href="#" class="btn  js-url">
+                  <svg width="20" height="20" class="projects__icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-home"></use>
+                  </svg>
+                  <span>Navigate to project</span>
+                </a>
+                <a href="#" class="btn  js-hide" data-hide="">
+                  <svg width="20" height="20" class="projects__icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-hide"></use>
+                  </svg>
+                  <span>Don't show this to me</span>
+                </a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer__links">
+        <li><a class="footer__link" href="">Hyperlink 1</a></li>
+        <li><a class="footer__link" href="">Hyperlink 2</a></li>
+        <li><a class="footer__link" href="">Hyperlink 3</a>
+        </li>
+      </ul>
+      <ul class="footer__links--more">
+        <li><a class="footer__link" href="">Hyperlink 4</a></li>
+        <li><a class="footer__link" href="">Hyperlink 5</a></li>
+        <li><a class="footer__link" href="">Hyperlink 6</a>
+        </li>
+      </ul>
+      <ul class="footer__links--more">
+        <li><a class="footer__link" href="">Hyperlink 7</a></li>
+        <li><a class="footer__link" href="">Hyperlink 8</a></li>
+        <li><a class="footer__link" href="">Hyperlink 9</a>
+        </li>
+      </ul>
+
+      <div class="footer__connect">
+        <input id="signup-btn" type="email" placeholder="Enter your email...">
+        <label for="signup-btn"><a href="" class="btn">Sign up for newsletter</a></label>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>

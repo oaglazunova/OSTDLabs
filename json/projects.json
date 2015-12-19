@@ -1,0 +1,23 @@
+[
+  {
+    "logo": "img/logo01.jpg",
+    "name": "Project 01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum nisl. Quisque suscipit scelerisque tincidunt.",
+    "url": "project01-web.org"
+}, {
+    "logo": "img/logo02.jpg",
+    "name": "Project 02",
+    "description": "Morbi volutpat dolor ante, vitae consequat risus pellentesque quis. Morbi pharetra ex a risus auctor volutpat. Nunc faucibus tempus nulla a pretium. Praesent blandit pellentesque orci sit amet maximus.",
+    "url": "project02-web.org"
+}, {
+    "logo": "img/logo03.jpg",
+    "name": "Project 03",
+    "description": "Cras faucibus, ante eget feugiat fringilla, neque neque tristique purus, et sagittis nibh dolor eget erat. Morbi ipsum odio, vestibulum sed vestibulum nec, placerat et urna. Aenean euismod felis quam, in porta purus laoreet quis.",
+    "url": "project03-web.org"
+}, {
+    "logo": "img/logo04.jpg",
+    "name": "Project 04",
+    "description": "Aenean in arcu ut lacus pharetra laoreet. Nulla vitae lectus eu nibh aliquam accumsan sed eget turpis. Curabitur egestas placerat justo, eget dictum ligula dignissim at. Duis at tellus tristique, porta odio eu, eleifend dui.",
+    "url": "project04-web.org"
+}
+]

@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  padding: 5px;
+  background: @bkg--dark;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &__links {
+    list-style: none;
+    
+    &--more {
+      display: none;
+      list-style: none;
+      @media(min-width: @screen--md) {
+        display: block;
+      }
+    }
+  }
+  &__link {
+    display: block;
+    margin: 0 auto 5px;
+    color: @primary--dark;
+    font-weight: bold;
+    
+    &:last-child {
+      margin: 0 auto;
+    }
+  }
+  &__connect {
+    & input {
+      display: block;
+      margin: 0 auto 5px;
+    }
+    & .btn {
+      display: block;
+    }
+  }
+}
