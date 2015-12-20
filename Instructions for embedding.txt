@@ -1,0 +1,19 @@
+1. Include embed.css (css necessary only for the projects list styling)
+
+2. Add jQuery dependency:
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+3. Include embed.js script file
+
+4. Insert the following code into your html page after jQuery and embed.js and replace CapsLock with your data:
+
+<script type="text/javascript">  
+$(function () {
+  var localUrl = 'WEB-PAGE.html'; // url from there the embeddable code will be taken
+  var elementId = '#embeddable';  // id of the embeddable block; don't modify
+  var elementToUpdate = $('#WHERE-TO-PUT-THE-PROJECT-LIST'); // id on the element on your page where you'd like to put the embedded html code
+
+  elementToUpdate.load(localUrl + ' ' + elementId);
+  loadProjects();
+});
+</script>

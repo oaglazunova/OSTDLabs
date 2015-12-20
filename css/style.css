@@ -704,8 +704,6 @@ body {
 
 .projects__logo {
 	display: none;
-	width: 150px;
-	height: 70px;
 	background: #d96927;
 }
 
@@ -721,7 +719,6 @@ body {
 }
 
 .projects .btn {
-	display: block;
 	margin: 0 10px 0 0;
 }
 
@@ -750,10 +747,10 @@ body {
 
 }
 
-@media (min-width: 760px) {
+@media (min-width: 750px) {
 
 .container {
-	width: 760px;
+	width: 750px;
 	padding: 0 10px;
 }
 
@@ -821,6 +818,7 @@ body {
 }
 
 .projects .btn {
+	display: block;
 	margin: 0 auto 30px;
 }
 
@@ -839,18 +837,18 @@ body {
 
 }
 
-@media (min-width: 980px) {
+@media (min-width: 970px) {
 
 .container {
-	width: 980px;
+	width: 970px;
 }
 
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1170px) {
 
 .container {
-	width: 1180px;
+	width: 1170px;
 }
 
 }

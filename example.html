@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSTD Labs: Embedded JSON list</title>
+  <link rel="stylesheet" href="css/embed.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div id="embed"></div>
+  </div>
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/embed.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(function () {
+      var localUrl = 'index.html';
+      var elementId = '#embeddable';
+      var elementToUpdate = $('#embed');
+
+      elementToUpdate.load(localUrl + ' ' + elementId);
+      loadProjects();
+    });
+  </script>
+
+</body>
+
+</html>
