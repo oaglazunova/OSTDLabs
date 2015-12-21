@@ -25,14 +25,19 @@ function loadProjects() {
 }
 
 function populateProjects(projects) {
+	  
   if (projects.length == 0) {
     $("#projects").hide();
     return;
   }
-
+  
   var template = $(".js-project");
 
   for (var i = 0; i < projects.length; i++) {
+	if (projects.length === 0) {
+		$("#projects").hide();		
+	}	
+	
     if (i > 0) {
       template = $(template).clone();
       template.appendTo("#projects");
